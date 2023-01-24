@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "Expert Sans Regular";
+    src: url('/asset/font/expert-sans-regular.woff');
+
+}
+@font-face {
+    font-family: "Expert-Sans-b14";
+    src: url('/asset/font/expert-sans-b14.woff');
+}
+@font-face {
+    font-family: "Expert Sans Light";
+    src: url('/asset/font/expert-sans-light.woff');
+}
+
+body{
+    margin: 0;
+    font-size: 18px;
+}
+/*  #f2fbfe
+    #0076b6
+    #666
+    #fbfbfb
+    #8c8c8c
+    #00395d
+    #00aeef
+
+    #e5ebee
+*/
+.navigation{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+#clone1, #clone2{
+    display: flex;
+    align-items: center;
+}
+#clone1{
+    margin-left: 2%;
+}
+#clone2{
+    margin-right: 2%;
+}
+
+#clone1 #clone-img1{
+    width: 28px;
+    height: 30px;
+}
+#clone1 #clone-img2{
+    width: 152px;
+    height: 30px;
+    margin-left: 10px;
+}
+#clone2 #clone-img3{
+    width: 15px;
+    height: 21px;
+    margin: 0 10px;
+}
+#clone2 a{
+    color:#0076b6;
+    text-decoration: none;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 25px;
+}
+.first-section{
+    width: 100%;
+    height: 150px;
+    background-color:#f2fbfe ;
+    padding: 5px 20% ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.first-section p{
+    font-size: 2.4em;
+    line-height: 1.175;
+    color: #00395d;
+    font-family: "Expert Sans Light",Verdana,sans-serif;
+    font-weight: 100;
+}
+.first-section p::before{
+    border: 2px solid #00aeef;
+    background-color: #00aeef;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 18%;
+    height: 30%;
+    width: 1px;
+    z-index: 2;
+    top: 45px;
+    content: '';
+}
+.second-section{
+    width: 100%;
+}
+#level1{
+    margin-left: 18%;
+}
+#level1 #l1-p{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #00395d;
+    line-height: 1.5;
+}
+#level1-txt p{
+    display: inline;
+    color: #333;
+    line-height: 1.5;
+    font-size: 16px;
+}
+#level1-txt a{
+    color: #0076b6;
+    font-weight: 100;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+#level2{
+    width: 48%;
+    margin-left:15% ;
+    margin-bottom: 20px;
+}
+#level2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#level2 ul li{
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+    padding: 20px 20px;
+    color: #666;
+    font-size: 16px;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid;
+}
+#membership-number, #card-number, #sort-code-number{
+    background-color: #fbfbfb;
+}
+#level2 ul li:hover{
+    color: #0076b6;
+    border: 1px solid #0076b6;
+}
+form{
+    position: relative;
+}
+#membership-container, #card-container, #sortCode-container{
+    margin-left:18% ;
+
+}
+form label{
+    margin: 20px 0;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    
+}
+
+form img{
+    transform: translate(20px, 4px);
+}
+form input{    
+    display: block;
+    width: 444px;
+    border-radius: 5px;
+    border: 1px solid #909090;
+    padding: 12px 20px;
+    font-size: 1em;
+    line-height: 1.5;
+    outline-color:#0076b6 ;
+    color: #0076b6;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+form input:hover, input[type='checkbox']:hover{
+    background-color: #f2fbfe;
+    border-color: #0076b6;
+}
+form a{
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+    color: #0076b6;
+    display: inline-block;
+    margin: 10px 0;
+
+    font-size: 16px;
+}
+#card-container{
+    display: none;
+}
+
+#sortCode-container{
+    display: none;
+}
+.input-split{
+    display: none;
+    width: 30%;
+}
+.input-split input{
+    width: 40%;
+    border-radius: 10px;
+}
+.three-input{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.three-input input{
+    width: 10%;
+}
+.three-input span{
+    position: relative;
+    top: 15px;
+}
+
+#account-input input{
+    width: 20%;
+}
+.dash{
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+
+#checkbox #check-p1{
+    color: #00395d;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 8%;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+#checkbox{
+    width:43%;
+    position: relative;
+    margin-top: 30px;
+}
+#checkbox input[type='checkbox']{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #909090;
+    position: absolute;
+    top: 15px;
+}
+#checkbox p span{
+    font-size: 0.875rem;
+    color: #666;
+}
+form .seperator{
+    width: 50%;
+    padding: 1px;
+    margin-top: 32px;
+    box-shadow: 1px 1px #e5ebee;
+}
+form .button-box{
+    margin-left: 18%;
+}
+form button{
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    padding: 11px 30px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    transition: background-color .3s ease-out,color .3s ease-out;
+    overflow: visible;
+    cursor: pointer;
+    background-color: #0076b6;
+    color: #fff;
+}
+form button:hover{
+    background-color: #005e91;
+}
+
+footer{
+    width: 100%;
+}
+footer ul{
+    /* margin-left: 15%; */
+    margin: 40px 15%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 40%;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #0076b6;
+    font-weight: 100;
+    font-size: 1em;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+footer ul li a:hover{
+    color: #00395d;
+    text-decoration: underline;
+}
+#footer-link{
+    margin-left: 18%;
+    color: #0076b6;
+    font-size: 0.8em;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+#paragraph{
+    width: 50%;
+    margin-left: 18%;
+}
+#paragraph p{
+    font-size: 15px;
+    color: #666;
+    font-family: "Expert Sans Regular",Verdana,sans-serif;
+}
+#footer-img{
+    width: 40%;
+    margin-left: 18%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-img img{
+    width: 120px;
+    height: 70px;
+    object-fit: contain;
+}
