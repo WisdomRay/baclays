@@ -1,0 +1,159 @@
+@media screen and (max-width:992px) {
+
+    #level2 li{
+        font-size: 16px !important;
+        text-align: center;
+
+    }
+    #checkbox{
+        width: 60%;
+    }
+    #paragraph{
+        width: 67%;
+    }
+    #footer-img{
+        width: 55%;
+    }
+    footer ul{
+        width: 60%;
+    }
+    form .seperator{
+        width: 80%;
+
+    }
+}
+@media screen and (max-width:922px) {
+    #clone1{
+        margin-left: 5%;
+    }
+    #clone2{
+        margin-right: 5%;
+    }
+    .first-section{
+        padding-left: 7%;
+    }
+    .first-section p::before{
+        left: 5%;
+        top: 48px;
+    }
+    #level1, #level2{
+        margin-left: 5%;
+    }
+
+    #membership-container, #card-container, #sortCode-container{
+        margin-left: 5%;
+    }
+    form .button-box, #footer-link, #footer-img, #paragraph{
+        margin-left: 5%;
+    }
+
+    #checkbox{
+        width: 55%;
+    }
+    footer{
+        width: 85%;
+    }
+    #paragraph{
+        width: 100%;
+    }
+    #paragraph p{
+        font-size: 14px;
+    }
+    #footer-img{
+        width: 70%;
+    }
+    #footer-img img{
+        width: 100px;
+    }
+    footer ul{
+        width: 90%;
+        margin-left: 5%;
+    }
+    footer ul li a{
+        font-weight: 0;
+        font-size: 0.8em;
+    }
+    form .seperator{
+        width: 95%;
+
+    }
+}
+@media screen and (max-width:868px) {
+
+    #checkbox{
+        width: 49%;
+    }
+
+    form .button-box{
+        font-size: 0.8em;
+
+    }
+    #checkbox #check-p1{
+        font-size: 0.8em;
+
+    }
+    #checkbox input[type='checkbox']{
+        top: 5px;
+        width: 20px;
+    }
+}
+@media screen and (max-width:823px) {
+
+    #checkbox{
+        width: 52%;
+    }
+
+    form .button-box{
+        font-size: 0.8em;
+
+    }
+
+}
+@media screen and (max-width:767px) {
+    #level2 li .same-radio{
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+    #level2 ul{
+        flex-direction: column;
+        width: 40%;
+    }
+    #level2 ul li{
+        padding: 0;
+        color: #00395d !important ;
+        border: transparent;
+        font-size: 18px !important;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px ;
+    }
+    #level2 ul li:hover{
+        background-color: #fff !important;
+        border: none;
+    }
+    #membership-number, #card-number, #sort-code-number{
+        background-color: #fff !important;
+    }
+    #card-number{
+        margin-inline: 0%;
+    }
+    form input{
+        width: 95%;
+    }
+    .three-input{
+        width: 100%;
+    }
+    .three-input input{
+        width: 25%;
+    }
+    #account-input input{
+        width: 95%;
+    }
+    #checkbox{
+        width: 90%;
+    }
+    #checkbox #check-p1{
+        color: #666;
+    }
+}
