@@ -129,6 +129,7 @@ body{
     display: flex;
     padding: 0;
     width: 100%;
+    text-align: center;
 }
 #level2 li .same-radio{
     display: none;
@@ -141,7 +142,6 @@ body{
     font-size: 16px;
     border-radius: 8px 8px 0 0;
     border: 1px solid;
-    width: 100%;
 }
 #membership-number, #card-number, #sort-code-number{
     background-color: #fbfbfb;
@@ -169,9 +169,10 @@ form label{
 form img{
     transform: translate(20px, 4px);
 }
+
 form input{    
     display: block;
-    width: 444px;
+    width: 40%;
     border-radius: 5px;
     border: 1px solid #909090;
     padding: 12px 20px;
@@ -196,7 +197,7 @@ form a{
 }
 
 #sortCode-container{
-    display: none;
+    display: block;
 }
 .input-split{
     display: none;
