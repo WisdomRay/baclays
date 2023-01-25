@@ -148,7 +148,7 @@
         width: 87%;
     }
     .three-input{
-        width: 95%;
+        width: 90%;
     }
     .three-input input{
         width: 20%;
@@ -255,5 +255,36 @@
     }
     .first-section p{
         margin-top: 30px;
+    }
+    #membership-container, #card-container, #sortCode-container{
+        margin-left: 3%;
+    }
+    #clone1,#level1, #level2, form .button-box, #footer-link, #footer-img, #paragraph{
+        margin-left: 3%;
+    }
+    .first-section p::before{
+        left: 3%;
+    }
+    #clone2{
+        margin-right: 3%;
+    }
+    #foot-ul-1{
+        display: none;
+    }
+    #foot-ul{
+        display: block;
+    }
+    #level2 ul {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:333px) {
+
+    #level2 ul li {
+        font-size: 15px !important;
+    }
+    #level1-txt p{
+        display: block;
+        line-height: 0;
     }
 }

@@ -287,6 +287,9 @@ form button:hover{
 footer{
     width: 100%;
 }
+#foot-ul{
+    display: none;
+}
 footer ul{
     margin: 40px 18%;
     display: flex;
