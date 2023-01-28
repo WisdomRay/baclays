@@ -53,3 +53,6 @@ membershipNumber.addEventListener('click', ()=>{
 
 
 });
+
+const radio = document.getElementById('radio');
+radio.checked = true

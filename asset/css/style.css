@@ -120,7 +120,7 @@ body{
     font-size: 15px;
 }
 #level2{
-    width:100%;
+    width:70%;
     margin-left:18% ;
     margin-bottom: 20px;
 }
@@ -197,7 +197,7 @@ form a{
 }
 
 #sortCode-container{
-    display: block;
+    display: none;
 }
 .input-split{
     display: none;
@@ -330,8 +330,18 @@ footer ul li a:hover{
     display: flex;
     justify-content: space-between;
 }
-#footer-img img{
+#footer-img1{
+    width: 40%;
+    margin-left: 3%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: none;
+}
+#footer-img img, #footer-img1 img{
     width: 120px;
     height: 70px;
     object-fit: contain;
+}
+.fi-1, .fi-2{
+    display: flex;
 }

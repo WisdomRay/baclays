@@ -189,6 +189,12 @@
         width: 88%;
     }
 }
+@media screen and (max-width:616px) {
+    .first-section p{
+        font-size: 1.9em;
+        margin-top: 45px;
+    }
+}
 @media screen and (max-width:595px) {
     .three-input{
         width: 95%;
@@ -277,6 +283,18 @@
     #level2 ul {
         width: 100% !important;
     }
+    #checkbox #check-p1{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:337px) {
+    #footer-img1{
+        display: block;
+    }
+    #footer-img{
+        display: none;
+    }
 }
 @media screen and (max-width:333px) {
 
@@ -287,4 +305,5 @@
         display: block;
         line-height: 0;
     }
+
 }
